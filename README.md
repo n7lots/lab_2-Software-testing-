@@ -29,6 +29,10 @@
 ### Головне вікно застосунку
 <img width="797" height="636" alt="image" src="https://github.com/user-attachments/assets/b647a2a2-cd81-4e33-8bfa-210a726c6815" />
 
+
+## Для розробників
+[CONTIBUTING](https://github.com/n7lots/lab_2-Software-testing-/blob/main/CONTRIBUTING.md)
+
 ### Малювання від руки
 <img width="799" height="630" alt="image" src="https://github.com/user-attachments/assets/8b8fd573-3aea-4501-979b-c2708da8328f" />
 
