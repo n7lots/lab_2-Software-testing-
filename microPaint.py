@@ -110,10 +110,10 @@ class MainWindow(QMainWindow):
         toolbar.addAction(clear_action)
 
         toolbar.setStyleSheet("""
-        QToolButton[text="Чорний"] { color: black; }
-        QToolButton[text="Синій"] { color: blue; }
-        QToolButton[text="Червоний"] { color: red; }
-        """)
+        QToolButton[text="Чорний"] { color: red; }
+        QToolButton[text="Синій"] { color: orange; }
+        QToolButton[text="Червоний"] { color: blue; }
+        """) #тут треба змінити кольори відповідно назвам
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
