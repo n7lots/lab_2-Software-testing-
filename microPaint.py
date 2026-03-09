@@ -103,7 +103,7 @@ class MainWindow(QMainWindow):
         toolbar.addAction(rect_action)
 
         line_action = QAction('Лінія (від руки)', self)
-        line_action.triggered.connect(lambda: self.drawing_area.set_drawing_mode("rect"))  #тут так як і в 101, а має бути не rect
+        line_action.triggered.connect(lambda: self.drawing_area.set_drawing_mode("line"))
         toolbar.addAction(line_action)
 
         clear_action = QAction('Очистити', self)
