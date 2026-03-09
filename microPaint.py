@@ -9,19 +9,19 @@ class DrawingArea(QWidget):
         super().__init__(parent=parent)
         self.setMinimumSize(600, 400)
         self.pixmap = QPixmap(self.size())
-        self.pixmap.fill(Qt.white)
+        self.pixmap.fill(Qt.black) #тут був білий
 
         self.last_point = QPoint()
         self.start_point = QPoint()
         self.pen_color = QColor(Qt.black)
-        self.pen_width = 3
+        self.pen_width = 4 #було три
         self.drawing_mode = 'line' # line - від руки
         self.is_drawing = False
 
     def resizeEvent(self, event: QResizeEvent) -> None:
         if self.width() > self.pixmap.width() or self.height() > self.pixmap.height():
             new_pixmap = QPixmap(self.size())
-            new_pixmap.fill(Qt.white)
+            new_pixmap.fill(Qt.black) #тут також мав бути білий
             painter = QPainter(new_pixmap)
             painter.drawPixmap(0, 0, self.pixmap)
             painter.end()
