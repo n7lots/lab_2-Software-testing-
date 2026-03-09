@@ -14,7 +14,7 @@ class DrawingArea(QWidget):
         self.last_point = QPoint()
         self.start_point = QPoint()
         self.pen_color = QColor(Qt.black)
-        self.pen_width = 4 #було три
+        self.pen_width = 3
         self.drawing_mode = 'line' # line - від руки
         self.is_drawing = False
 
