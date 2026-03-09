@@ -67,8 +67,7 @@ class DrawingArea(QWidget):
         self.pen_color = QColor(color)
 
     def clear(self):
-        self.pixmap.fill(Qt.white)
-        self.update()
+        self.update() #тут не вистачає строчки коду
 
     def set_drawing_mode(self, mode):
         self.drawing_mode = mode
