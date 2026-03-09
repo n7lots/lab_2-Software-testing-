@@ -91,7 +91,7 @@ class MainWindow(QMainWindow):
         toolbar.addAction(black_action)
 
         red_action = QAction('Червоний', self)
-        red_action.triggered.connect(lambda: self.drawing_area.set_color(Qt.green)) #тут має бути червоний
+        red_action.triggered.connect(lambda: self.drawing_area.set_color(Qt.red))
         toolbar.addAction(red_action)
 
         blue_action = QAction('Синій', self)
